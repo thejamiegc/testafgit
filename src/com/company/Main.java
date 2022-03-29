@@ -15,7 +15,7 @@ public class Main {
         System.out.println("The total registration fee for the fleet is: " + fleet.getTotalRegistrationFeeForFleet());
         System.out.println(fleet);
         MainFeature l = new MainFeature();
-        F1Car f = new F1Car();
+        F1Car f = new F1Car("1","redbull","f1",0,1);
         System.out.println(l);
         System.out.println(f);
     }
