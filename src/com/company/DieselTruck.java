@@ -5,6 +5,10 @@ public class DieselTruck extends DieselCar{
         super(registrationNumber, make, model,numberOfDoors, kmPrLitre,particleFilter);
     }
 
+    public void drive(){
+        System.out.println("wrmm!");
+    }
+
     @Override
     public String toString(){
         return  super.toString() + "\n does it have a particlefilter: " + super.hasParticleFilter() +"\n";
